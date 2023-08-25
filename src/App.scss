@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1900px;
+  margin: 0 auto;
+}
+:root {
+  --mainColor: #29335c;
+  --mainColor: #5767aa;
+  --secondColor: #db2839;
+  --textColor: #eee;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 321px;
+
+}
+h5 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Заблокировать горизонтальный скролл */
+  html, body {
+    overflow-x: hidden;
+    touch-action:cross-slide-y;
+    -ms-touch-action: none;
+    
+
+  }
+
+  
+}

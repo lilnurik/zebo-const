@@ -1,0 +1,303 @@
+span {
+  color: #b5b5b5;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 90px */
+}
+
+.all{
+  padding-left: 130px;
+}
+
+.title {
+  color: #212427;
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-left: 30px;
+  width: 777px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.info {
+  display: inline-flex;
+  align-items: center; /* Выравнивание по вертикали */
+}
+
+.text {
+  padding-right: 20px; /* Добавляем немного отступа между текстом и изображением */
+  line-height: 150%;
+}
+
+.imginfo {
+  width: 320px;
+  height: 432px;
+  flex-shrink: 0;
+}
+
+.items6 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-left: 30px;
+  width: 1140px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.items2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-left: 30px;
+  width: 1140px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.items3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-left: 30px;
+  width: 1140px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+/* 
+.div-di {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center
+
+  
+}
+.div-dive {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 767px;
+  display: flex;
+  flex-direction: column;
+  align-items:start
+}
+
+.imge {
+  width: 320px;
+  height: 432px;  
+}
+.div-dew{
+  display:flex
+}
+.div-dty{
+  display: flex;
+}
+ */
+
+ .title3{
+  margin-left: 25px;
+ }
+
+ .info3{
+  margin-left: 25px;
+ }
+
+ .info8{
+  margin-left: -25px;
+ }
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block; /* Меняем отображение на блочное */
+  }
+
+  .title {
+    color: #212427;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+  }
+
+  span{
+    color: #B5B5B5;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+  }
+
+  
+
+  .text{
+    color: #000;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 19.5px */
+width: 350px;
+padding-right: 0;
+padding-left: 0;
+margin-left: 0;
+  }
+  .all{
+    padding-left: 0;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column; /* Меняем на вертикальное расположение */
+    align-items: center; /* Выравнивание по центру */
+  }
+  
+  .reverse .imginfo {
+    order: 2; /* Меняем порядок изображения */
+    margin-top: 20px; /* Добавляем отступ сверху */
+  }
+  
+  .reverse .text {
+    order: 1; /* Меняем порядок текста */
+    margin-bottom: 20px; 
+  }
+  
+.second-text{
+  color: #000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 19.5px */
+  width: 325px;
+  padding-right: 0;
+  padding-left: 0;
+}
+  .items1,
+  .items2,
+  .items3,
+  .items4,
+  .items5,
+  .items6,
+  .items7,
+  .div-d {
+    margin-bottom: 20px; /* Добавляем отступ между элементами */
+  }
+
+ 
+
+  .info {
+    flex-direction: column; /* Меняем направление элементов на колонку */
+    align-items: flex-start;
+  }
+
+  .imginfo {
+    width: 97%; /* Заполнение всей доступной ширины */
+    height: auto; /* Автоматическая высота */
+  }
+
+  .imginfo2{
+    width: 340px;
+  }
+
+  .items2{
+    margin-left: 0px;
+  }
+
+
+  .title {
+    display: flex;
+    align-items: center; /* Выравнивание по центру вертикали */
+    color: #212427;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .title span {
+    order: 2; /* Меняем порядок элементов */
+  }
+  
+  .title span,
+  .title::after {
+    content: ''; /* Добавляем пустой контент для создания пространства между элементами */
+    flex: 1; /* Равномерное распределение пространства между элементами */
+    height: 1px; /* Создаем невидимый элемент для выравнивания */
+  }
+
+  .info8{
+    margin-left: 0;
+  }
+  
+ .info3{
+    margin-left: 0;
+  }
+
+  .title2 span{
+    margin-left: -800px;
+  }
+
+  .title span{
+    margin-top: -25px;
+  }
+
+  .title3{
+    margin-left: -0px;
+  }
+
+}

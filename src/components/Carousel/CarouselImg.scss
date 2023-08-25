@@ -1,0 +1,23 @@
+.carus {
+  margin: 100px;
+}
+
+.slider-right{
+  display: none !important;
+}
+
+.slider-left{
+  display: none !important;
+}
+
+// .react-3d-carousel{
+//   width: 1600px;
+// }
+
+@media screen and (max-width: 500px) {
+  .carus {
+    margin: 10px;
+  }
+}
+
+

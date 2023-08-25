@@ -1,0 +1,86 @@
+.div-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 210px;
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+  h1 {
+    width: 353px;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    @media only screen and (max-width: 500px) {
+      width: 199px;
+      height: 54px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  h5 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    @media only screen and (max-width: 500px) {
+      width: 338px;
+      height: 63px;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    @media only screen and (max-width: 500px) {
+      width: 321px;
+      height: 180px;
+      font-family: Roboto;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+.div-about {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+}
+.div-text {
+  width: 666px;
+  height: 150px;
+}
+
+.secondBlock{
+  @media screen and (max-width: 500px) {
+    margin-top: -85px;
+  }
+}
+
+
+

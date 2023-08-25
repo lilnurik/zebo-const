@@ -1,0 +1,168 @@
+.div-footer {
+  background: hsl(216, 41%, 18%);
+  height: 50vh;
+  h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d4d7d8;
+  }
+}
+
+.soc-icons {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 10px !important;
+}
+.div-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inpname{
+  width: 360px;
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid white;
+	background: transparent;
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: white;
+}
+
+
+.butsend{
+  width: 200px;
+  appearance: none;
+	border: .2em solid white;
+	background: transparent;
+	padding: .85em 1.5em;
+	color: white;
+	transition: 1s;
+	&:hover, &:focus, &:active {
+		background: white;
+		color: black;
+	}
+}
+
+.checkbox{
+  display: flex;
+}
+
+.checkbox{ .parag{
+  display: flex;
+  color: white;
+  width: 550px;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  // margin-bottom: 10px;
+  color: #B5B5B5;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 19.5px */
+margin-left: 5px;
+}
+ 
+}
+
+.check{
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+	font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid #ffffff;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+	display: grid;
+  place-content: center;
+  // margin-bottom: 10px;
+	&::before {
+		content: "";
+		width: 0.65em;
+		height: 0.65em;
+		transform: scale(0);
+		transition: 120ms transform ease-in-out;
+		box-shadow: inset 1em 1em #000000;
+		background-color: CanvasText;
+		clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+		transform-origin: left top;
+	}
+	&:checked::before {
+		transform: scale(1);
+	}
+}
+
+.inpname::placeholder{
+  color: white;
+}
+
+.div-div{
+  margin-top: 50px;
+}
+
+.forma{
+  margin-top: 50px;
+
+}
+
+.copyright{
+  color: #B5B5B5;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 19.5px */
+}
+
+
+@media screen and (max-width: 768px) {
+  .div-card {
+    flex-direction: column;
+  }
+  .div-footer{
+  height: 85vh;
+padding-top: 50px;
+  }
+
+  .copyright{
+    color: #B5B5B5;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+  }
+  
+  .forma {
+    margin-top: 0; /* Уберите отступ сверху при адаптивном просмотре */
+  }
+}
+
